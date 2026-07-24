@@ -142,4 +142,36 @@
 <br>
 <br>
 
+---
+***Documentation:***
 
+<br>
+<br>
+&nbsp;&nbsp;&nbsp;&nbsp; This was the area, where we log our IOCs so they can be used for future detection and threat hunting across the environment. We add three artifacts: Target Host IP, Hash of the file and URL from were the file was doownloaded.
+<br>
+<br>
+
+<img width="579" height="326" alt="12" src="https://github.com/user-attachments/assets/4422b526-aa1a-4a52-9bc9-3a553bf051c3" />
+
+<br>
+<br>
+&nbsp;&nbsp;&nbsp;&nbsp; The Analyst Note is where I write the full story in plain language, as if explaining it to someone who wasn't there for any of the investigation.
+<br>
+<br>
+
+<img width="574" height="312" alt="13" src="https://github.com/user-attachments/assets/b84d2b75-4d4b-49b0-98bc-04913171e87b" />
+
+<br>
+<br>
+&nbsp;&nbsp;&nbsp;&nbsp; The case is closed as a "True Positive".
+<br>
+<br>
+
+---
+<h3 align =center> Summary </h3>
+
+<br>
+<br>
+&nbsp;&nbsp;&nbsp;&nbsp; Afile called ab.exe landed on a computer named MarkPRD and it turned out to be real ransomware. It ran on the machine and started deleting the built-in Windows Backups (called shawdow copies) which is exactly what ransomeware daes to stop you from recovering your files without paying. Two separate tools, VirusTotal and AnyRun both confirmed the file was dangerous, so there was no doubt about the verdict. This alert is a confirmed True Positive.
+<br>
+<br>
