@@ -34,7 +34,7 @@
 
 <br>
 <br>
-&nbsp;&nbsp;&nbsp;&nbsp;  The sigle most important field in this whole table is Device Action: Allowed. This means the file executed on the endpoint without being stopped.  It also contains hash of the file and the actual file with the password. let's analyze this alert deeper by creating playbook.
+&nbsp;&nbsp;&nbsp;&nbsp;  The single most important field in this whole table is Device Action: Allowed. This means the file executed on the endpoint without being stopped.  It also contains hash of the file and the actual file with the password. let's analyze this alert deeper by creating playbook.
 <br>
 <br>
 
