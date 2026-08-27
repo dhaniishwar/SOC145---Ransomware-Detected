@@ -4,7 +4,7 @@
 
 **Difficulty:** Medium
 
-**Date Completed:** Jul 23, 2022
+**Date Completed:** Jul 23, 2026
 
 **Type:** Malware / Ransomware Detection
 
